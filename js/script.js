@@ -30,22 +30,3 @@ function updateClock() {
 
 updateClock();
 
-/* const textareaEl = document.getElementById("textarea");
-
-const totalEl = document.getElementById("total-counter");
-
-const remainEl = document.getElementById("remaining-counter");
-
-//updateCounter()
-
-// for textarea
-textareaEl.addEventListener("keyup", ()=>{
-  updateCounter()
-});
-
-//for total & remaining counter
-function updateCounter() {
-totalEl.innerHTML=  textareaEl.value.length;
-
-remainEl.innerHTML = textareaEl.getAttribute("maxLength") - textareaEl.value.length;
-} */
