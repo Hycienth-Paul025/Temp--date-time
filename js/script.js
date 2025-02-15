@@ -7,10 +7,7 @@ function updateClock() {
   let h = new Date().getHours();
   let m = new Date().getMinutes();
   let s = new Date().getSeconds();
-  let amPm = hours >= 12 ? "PM" : "AM";
-
-
-
+  let amPm = h >= 12 ? "PM" : "AM";
 
   h = h < 10 ? "0" + h : h;
   m = m < 10 ? "0" + m : m;
@@ -19,11 +16,6 @@ function updateClock() {
   hrs.innerText = h;
   mins.innerText = m;
   secs.innerText = s;
-
-  ampm, (innerText = ampm);
-  setTimeout(() => {
-    updateClock();
-  }, 1000);
 }
 
 updateClock();
